@@ -34,3 +34,41 @@ else each_scores <0:
 
 #a super store makes sales of five goods television, freezers, phones, indomie, rice
 cost_price
+
+#phones, freezer, television, Air conditioner, batteries
+
+cost_price_of_phone = 72000
+cost_price_of_freezer = 150000
+cost_price_of_television = 120000
+cost_price_of_Air_conditioner = 500000
+cost_price_of_battery = 200000
+
+selling_price_of_phone = int(input('Cost price of phone = 72000 What is your selling price'))
+selling_price_of_frezzer=int(input('Cost Cost price of freezer = 150000 What is your selling price '))
+selling_price_of_television = int(input('Cost price of television = 120000 What is your selling price'))
+selling_price_of_Air_conditioner = int(input('Cost price of Air conditioner = 500000 What is your selling price'))
+selling_price_of_battery = int(input('Cost price of battery = 200000 What is your selling price'))
+
+
+total_selling_price = [selling_price_of_phone + selling_price_of_frezzer + selling_price_of_television + selling_price_of_Air_conditioner + selling_price_of_battery ]
+
+total_cost_price = [cost_price_of_phone + 
+cost_price_of_freezer + cost_price_of_television + cost_price_of_Air_conditioner + 
+cost_price_of_battery]
+
+
+
+
+
+
+
+if total_selling_price > total_cost_price:
+	print('You have made profit of ', total_selling_price - total_cost_price)
+elif total_selling_price < total_cost_price:
+	print('You have made a loss of ', total_cost_price - total_selling_price)
+
+
+
+
+
+
